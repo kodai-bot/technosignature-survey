@@ -1,6 +1,6 @@
-# Planetary Transit Detection: an archaeological technosignature survey
+# Technosignature survey: an archaeological approach to stellar light curves
 
-This started in February 2023 as a short MSc exercise. It was my one attempt at "SETI as archaeology" during college: using TESS and Kepler light curves to look for dimming that natural processes don't explain, in the spirit of Boyajian's star (KIC 8462852). The repository now continues that work as a small survey. It treats stellar light curves the way a site is treated, recording every feature first and then explaining it away layer by layer.
+This started in February 2023 as a short MSc exercise. It was my one attempt at "SETI as archaeology" during college: using TESS and Kepler light curves to look for dimming that natural processes don't explain, in the spirit of Boyajian's star (KIC 8462852). The repository (formerly `Planetary_Transit_Detection`) now continues that work as a small survey. It treats stellar light curves the way a site is treated, recording every feature first and then explaining it away layer by layer.
 
 **The original 2023 work is preserved at the git tag `msc-2023`** and as notebooks in [`msc-2023/`](msc-2023/).
 
@@ -19,7 +19,7 @@ This started in February 2023 as a short MSc exercise. It was my one attempt at 
 
 ## Data
 
-The first sweep used 1,095 TESS Sector 59 two-minute light curves (2.0 GB). They are kept outside the repository; the default location is `/run/media/dylan/ELEMENTS/Lightcurves`. To use another folder, pass it as an argument or set `TECHNOSIG_DATA`.
+The first sweep used 1,095 TESS Sector 59 two-minute light curves (2.0 GB). They are kept outside the repository. Set `TECHNOSIG_DATA` to the folder that holds them (the code falls back to the path on my own machine).
 
 FITS files are git-ignored. MAST provides bulk-download scripts for each sector at <https://archive.stsci.edu/tess/bulk_downloads.html>.
 
@@ -51,3 +51,7 @@ This is early-stage work. The next work packages are listed in [`docs/research_p
 - a reference library of natural slow dimming processes
 - injection–recovery completeness tests
 - target lists built from archaeological priors: solar siblings, stars that passed close to the Sun, and the Earth transit zone
+
+## Licence and citation
+
+Code: MIT, see [LICENSE](LICENSE). The written material in `docs/` and `results/` may be reused with attribution. To cite this work, see [CITATION.cff](CITATION.cff).
