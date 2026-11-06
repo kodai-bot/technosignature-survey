@@ -52,6 +52,12 @@ This is early-stage work. The next work packages are listed in [`docs/research_p
 - injection–recovery completeness tests
 - target lists built from archaeological priors: solar siblings, stars that passed close to the Sun, and the Earth transit zone
 
+## Acknowledgements
+
+The 2023 MSc notebooks were learned from STScI's MAST tutorial notebooks for TESS and Kepler (then at `spacetelescope/notebooks`, now [spacetelescope/mast_notebooks](https://github.com/spacetelescope/mast_notebooks)) and from the [Lightkurve tutorials](https://lightkurve.github.io/lightkurve/tutorials/index.html).
+
+This work uses data collected by the TESS mission, obtained from the Mikulski Archive for Space Telescopes (MAST) at the Space Telescope Science Institute. Funding for the TESS mission is provided by NASA's Science Mission Directorate.
+
 ## Licence and citation
 
 Code: MIT, see [LICENSE](LICENSE). The written material in `docs/` and `results/` may be reused with attribution. To cite this work, see [CITATION.cff](CITATION.cff).
